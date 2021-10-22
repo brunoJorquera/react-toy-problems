@@ -32,10 +32,11 @@ export default class FilterObject extends Component {
                 Unfiltered Array:
                 <br/> 
                 {/* {this.state.unFilteredArray.map(( bum ) => <li key={bum.id}>{bum.name}:__{bum.age}y/o__ID#:{bum.id}</li>)} */}
-                
+
                 {JSON.stringify(this.state.unFilteredArray)}
                 </span>
                 <input 
+                type="text"
                 onChange={ (e) => this.handleChange( e.target.value ) }
                 className="inputLine" 
                 />
