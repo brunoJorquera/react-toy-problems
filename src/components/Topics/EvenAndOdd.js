@@ -13,6 +13,7 @@ export default class EvenAndOdd extends Component {
     handleChange(input){
         this.setState({ userInput: input })
     }
+
     handleClick(userInput){
         let array = userInput.split(',');
         let evens = [];
@@ -25,7 +26,6 @@ export default class EvenAndOdd extends Component {
                 odds.push((array[i]));
             }
         }
-
         this.setState({ evenArray: evens, oddArray: odds })
     }
 
