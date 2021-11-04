@@ -35,7 +35,7 @@ export default class EvenAndOdd extends Component {
                 <h4> Even and Odds</h4>
                <input 
                className="inputLine"
-               type="text"
+               type="number"
                onChange={ (e) => this.handleChange(e.target.value) }
                />
                <button 

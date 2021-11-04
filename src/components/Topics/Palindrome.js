@@ -43,7 +43,7 @@ export default class Palindrome extends Component {
                 onClick={this.handleClick}
                 className="confirmationButton"
                 >
-                    Czech
+                    Czech This
                 </button>
                 <span
                 className="resultsBox"
